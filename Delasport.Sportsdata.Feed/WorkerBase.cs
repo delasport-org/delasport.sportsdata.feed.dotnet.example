@@ -1,7 +1,6 @@
 namespace Delasport.Sportsdata.Common
 {
     using Confluent.Kafka;
-    using Delasport.Sportsdata.Common;
     using Confluent.Kafka.SyncOverAsync;
     using Confluent.SchemaRegistry.Serdes;
 
