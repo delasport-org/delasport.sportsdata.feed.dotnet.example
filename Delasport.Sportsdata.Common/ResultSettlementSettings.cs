@@ -1,8 +1,8 @@
-﻿namespace Delasport.Sportsdata.Common
+namespace Delasport.Sportsdata.Common
 {
-    public class EventSettings : IApplicationSettings
+    public class ResultSettlementSettings : IApplicationSettings
     {
-        public EventSettings()
+        public ResultSettlementSettings()
         {
             this.Server = default!;
             this.Key = default!;

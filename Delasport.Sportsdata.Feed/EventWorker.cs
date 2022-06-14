@@ -2,7 +2,7 @@
 {
     using Delasport.Sportsdata.Common;
     using Microsoft.Extensions.Logging;
-    using Models;
+    using Models.Event;
     using System.Threading.Tasks;
     using Microsoft.Extensions.Options;
 

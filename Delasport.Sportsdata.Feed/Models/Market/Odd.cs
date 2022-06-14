@@ -1,4 +1,4 @@
-﻿namespace Delasport.Sportsdata.Feed.Models
+﻿namespace Delasport.Sportsdata.Feed.Models.Market
 {
     using Newtonsoft.Json;
 

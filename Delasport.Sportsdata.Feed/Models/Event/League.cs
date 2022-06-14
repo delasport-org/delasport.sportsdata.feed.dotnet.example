@@ -1,13 +1,16 @@
-﻿namespace Delasport.Sportsdata.Feed.Models
+﻿namespace Delasport.Sportsdata.Feed.Models.Event
 {
     using Newtonsoft.Json;
 
-    public class Country
+    public class League
     {
         [JsonProperty("id")]
         public string? Id { get; set; } = default;
 
         [JsonProperty("title")]
         public string? Title { get; set; } = default;
+
+        [JsonProperty("format")]
+        public string? Format { get; set; } = default;
     }
 }
