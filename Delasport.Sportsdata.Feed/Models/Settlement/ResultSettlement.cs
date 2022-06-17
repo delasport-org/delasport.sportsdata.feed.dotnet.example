@@ -7,6 +7,15 @@ namespace Delasport.Sportsdata.Feed.Models.Settlement
         [JsonProperty("id")]
         public string Id { get; set; } = default!;
 
+        [JsonProperty("selectionStatus")]
+        public string SelectionStatus { get; set; } = default!;
+
+        [JsonProperty("oddId")]
+        public string OddId { get; set; } = default!;
+
+        [JsonProperty("marketId")]
+        public string MarketId { get; set; } = default!;
+
         [JsonProperty("eventId")]
         public string EventId { get; set; } = default!;
 
@@ -24,7 +33,5 @@ namespace Delasport.Sportsdata.Feed.Models.Settlement
 
         [JsonProperty("timestamp")]
         public int? Timestamp { get; set; } = default;
-
-        private IReadOnlyCollection<Odd>? Odds { get; set; } = default;
     }
 }
